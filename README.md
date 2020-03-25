@@ -17,13 +17,13 @@ Plusz programozási mókaként írasd ki a legrövidebb szóláncot, ami megoldj
 
 ## Példák:
 
-##### Például a **"lead"** szót **"gold"**-ba négy lépés alatt lehet leírni:
+##### Például a _"lead"_ szót _"gold"_-ba négy lépés alatt lehet leírni:
 >  1. _lead_
 >  2. load
 >  3. goad
 >  4. _gold_
   
-##### Vagy a **"ruby"** **"code"**-ba írásához hat lépés szükséges:
+##### Vagy a _"ruby" "code"_-ba írásához hat lépés szükséges:
 >  1. _ruby_ 
 >  2. rubs 
 >  3. robs 
