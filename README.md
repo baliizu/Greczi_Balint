@@ -15,7 +15,7 @@ A lényege ennek a katának, hogy írj egy olyan programot, ami a kezdő és bef
 
 Plusz programozási mókaként írasd ki a legrövidebb szóláncot, ami megoldja a rejtvényt.
 
-## Példák:
+### Példák:
 
 ##### Például a _"lead"_ szót _"gold"_-ba négy lépés alatt lehet leírni:
 >  1. _lead_
