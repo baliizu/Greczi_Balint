@@ -1,64 +1,35 @@
-# Bevezetés a programozásba 1.
+# Kata19: Szólánc
 
-Hely: GT 120
-Időpont: 17:00-18:30
+### Írj egy programot ami megoldja a szólánc rejtvényeket.
 
-Tematika
-## Bevezetés a programozásba 1.
+Létezik egy rejtvény, amelynél az a kihívás, hogy olyan szóláncokat hozz létre, amely egy bizonyos szóval kezdődik és egy megadott szóval ér véget.
+A szólánc összes elemének létező szavakból kell állnia és minden szónak csak egyetlen egy betűvel szabad különböznie az előzőtől.
 
-### Bevezetés a programozásba 1.
+Például a "cat" szótol a "dog" szóig a következő lánccal:
+>  1. cat
+>  2. cot
+>  3. cog
+>  4. dog
+  
+A lényege ennek a katának, hogy írj egy olyan programot, ami a kezdő és befejező szó megadása után szóláncot hoz létre köztük szótár segítéségevel.
 
-#### Bevezetés a programozásba 1.
+Plusz programozási mókaként írasd ki a legrövidebb szóláncot, ami megoldja a rejtvényt.
 
-##### Bevezetés a programozásba 1.
+## Példák:
 
-###### Bevezetés a programozásba 1.
+###### Például a **"lead"** szót **"gold"**-ba négy lépés alatt lehet leírni:
+>  1. _lead_
+>  2. load
+>  3. goad
+>  4. _gold_
+  
+###### Vagy a **"ruby"** **"code"**-ba írásához hat lépés szükséges:
+>  1. _ruby_ 
+>  2. rubs 
+>  3. robs 
+>  4. rods 
+>  5. rode 
+>  6. _code_
 
-# Markdown cheatsheet!
-
-_szöveg_ dőlt
-
-*szöveg* dőlt
-
-__szöveg__ félkövér
-
-**szöveg** félkövér
-
-*hosszabb mondat, **amiben van félkövér is***
-
-# Rendezetlen lista
-
-* lista első eleme
-* lista második eleme
-  * allista első eleme
-  * allista második eleme
-
-# Rendezett lista
-
-1. első elem
-2. második elem
-3. harmadik elem
-   * lista 1
-   * lista 2
-   
---------------
-
-[link szövege](http://www.google.com)
-[google-link]: http://www.google.com
-
-Idézet egy emberkétől
-> Siker nem végleges.
-
-10*10*10=1000 fordított perjel elé és akkor kiírja rendesen
-
-# pipálható lista
-- [ ] nincs kész
-- [x] kész
-
-hullámjel 2db áthúzott szó
-
-# Táblázat
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Mihelyst működik a kód, próbáld meg lemérni az időt. Az említett példákhoz kevesebb mint egy másodopercre van szükség?
+A lefutáshoz szükséges idő egyenlő mindkét irányba, előre fele és hátrafele is? (Tehát a "lead"-"gold" szólánc ugyanannyi idő mint a "gold"-"lead"?)
