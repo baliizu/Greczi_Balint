@@ -1,6 +1,6 @@
-Kata19: Szólánc
+#Kata19: Szólánc
 
-Írj egy programot ami megoldja a szólánc rejtvényeket.
+###Írj egy programot ami megoldja a szólánc rejtvényeket.
 
 Létezik egy rejtvény, amelynél az a kihívás, hogy olyan szóláncokat hozz létre, amely egy bizonyos szóval kezdődik és egy megadott szóval ér véget.
 A szólánc összes elemének létező szavakból kell állnia és minden szónak csak egyetlen egy betűvel szabad különböznie az előzőtől.
@@ -16,13 +16,15 @@ A lényege ennek a katának, hogy írj egy olyan programot, ami a kezdő és bef
 
 Plusz programozási mókaként írasd ki a legrövidebb szóláncot, ami megoldja a rejtvényt.
 
-Például a "lead" szót "gold"-ba négy lépés alatt lehet leírni:
+##Példák:
+
+Például a **"lead"** szót **"gold"**-ba négy lépés alatt lehet leírni:
   lead
   load
   goad
   gold
   
-Vagy a "ruby" "code"-ba írásához hat lépés szükséges:
+Vagy a **"ruby"** **"code"**-ba írásához hat lépés szükséges:
   ruby 
   rubs 
   robs 
